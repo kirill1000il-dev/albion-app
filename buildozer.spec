@@ -5,7 +5,7 @@ package.domain = org.me
 source.dir = .
 source.include_exts = py,png,jpg,json
 version = 1.0
-requirements = python3,kivy,jnius>=1.4.0,urllib3,openssl,requests
+requirements = python3,kivy,pyjnius @ git+https://github.com/kivy/pyjnius.git@eaf76a5#egg=pyjnius,urllib3,openssl,requests
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
