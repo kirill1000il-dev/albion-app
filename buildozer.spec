@@ -5,7 +5,7 @@ package.domain = org.me
 source.dir = .
 source.include_exts = py,png,jpg,json
 version = 1.0
-requirements = python3,kivy,urllib3,openssl,requests
+requirements = python3,kivy,jnius>=1.4.0,urllib3,openssl,requests
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
@@ -16,7 +16,6 @@ android.ndk = 25b
 android.ndk_path =
 android.allow_backup = True
 android.accept_sdk_license = True
-p4a.branch = v2024.01.21
 
 [buildozer]
 log_level = 2
